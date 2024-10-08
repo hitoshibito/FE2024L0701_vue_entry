@@ -1,3 +1,8 @@
 const app= new Vue({
-    el: '#app'
-});
+    el: '#app',
+    data(){
+        return{
+            text:'hello Vue.js'
+        };
+    }
+})
